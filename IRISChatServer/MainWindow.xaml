@@ -1,0 +1,13 @@
+﻿<Window x:Class="IRISChatServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:v="clr-namespace:IRISChatServer.Views"
+        Title="IRIS" Height="650" Width="1000"
+        Background="Black"
+        WindowState="Maximized">
+    <Window.Content>
+        <v:MasterPage/>
+    </Window.Content>
+</Window>
